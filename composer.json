@@ -1,0 +1,48 @@
+{
+	"name": "itlo/cms-basic",
+	"description": "itlo CMS basic package",
+	"keywords": ["yii", "itlo", "framework", "component"],
+  	"homepage": "https://cms.itlo.ru/",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "issues": "https://itlo.ru/",
+        "wiki": "https://cms.itlo.ru/docs",
+        "source": "https://github.com/itlo-cms/cms-basic.git"
+    },
+	"authors": [
+		{
+			"name": "Semenov Alexander",
+			"email": "semenov@itlo.com"
+		}
+	],
+	"require": {
+		"itlo/cms": "^5.1.0 || dev-master",
+        "itlo/cms-seo": "^2.1.6 || dev-master",
+        "itlo/cms-rp-view-widget": "^1.0.0 || dev-master",
+		"itlo/cms-module-form2": "^2.5.0 || dev-master",
+		"itlo/cms-mailer": "^2.1.0 || dev-master",
+        "itlo/cms-search": "^2.1.0 || dev-master",
+		"itlo/cms-db-dumper": "^1.3.0 || dev-master",
+		"itlo/cms-log-db-target": "^1.4.0 || dev-master",
+		"itlo/cms-assets-auto-compress": "^1.6.0 || dev-master",
+		"itlo/cms-related-handler-extra": "^1.1.0 || dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+            "itlo\\cms\\cmsbasic\\": "src/"
+        }
+    },
+    "extra": {
+		"config-plugin": {
+            "web": [
+				"src/config/common.php",
+				"src/config/web.php"
+			],
+            "console": [
+				"src/config/common.php",
+				"src/config/console.php"
+			]
+        }
+    }
+}
