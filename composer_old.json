@@ -1,0 +1,39 @@
+{
+	"name": "itlo/cms-basic",
+	"version": "0.0.1",
+	"description": "itlo CMS basic package",
+	"keywords": ["yii", "itlo", "framework", "component"],
+  	"homepage": "https://cms.itlo.ru/",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "issues": "https://itlo.ru/",
+        "wiki": "https://cms.itlo.ru/docs",
+        "source": "https://github.com/itlo-cms/cms-basic.git"
+    },
+	"authors": [
+		{
+			"name": "Roman Logachev",
+			"email": "rlogachev@itlo.ru"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "itlo\\cms\\cmsbasic\\": "src/"
+        }
+    },
+    "extra": {
+		"config-plugin": {
+            "web": [
+				"src/config/common.php",
+				"src/config/web.php"
+			],
+            "console": [
+				"src/config/common.php",
+				"src/config/console.php"
+			]
+        }
+    }
+}
+
+
