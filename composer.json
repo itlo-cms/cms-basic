@@ -1,5 +1,6 @@
 {
 	"name": "itlo/cms-basic",
+	"version": "0.0.1",
 	"description": "itlo CMS basic package",
 	"keywords": ["yii", "itlo", "framework", "component"],
   	"homepage": "https://cms.itlo.ru/",
