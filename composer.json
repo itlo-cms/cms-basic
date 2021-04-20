@@ -19,7 +19,7 @@
 			}
 		},
 		{
-			"type": "git-github",
+			"type": "github",
 			"url": "git@github.com:itlo-cms/cms.git"
 		}
 	],
