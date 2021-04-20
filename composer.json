@@ -1,6 +1,28 @@
 {
 	"name": "itlo/cms-basic",
 	"version": "0.0.1",
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "itlo/cms",
+				"version": "0.0.1",
+
+				"source": {
+					"url": "git@github.com:itlo-cms/cms.git",
+					"type": "git",
+					"reference": "dev"
+				},
+				"autoload": {
+					"classmap": [""]
+				}
+			}
+		},
+		{
+			"type": "git-github",
+			"url": "git@github.com:itlo-cms/cms.git"
+		}
+	],
 	"description": "itlo CMS basic package",
 	"keywords": ["yii", "itlo", "framework", "component"],
   	"homepage": "https://cms.itlo.ru/",
@@ -38,3 +60,5 @@
         }
     }
 }
+
+
