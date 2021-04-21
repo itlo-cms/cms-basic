@@ -10,6 +10,9 @@
 		"wiki": "https://cms.itlo.com/docs",
 		"source": "https://github.com/itlo-cms/cms-basic.git"
 	},
+
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
 	"authors": [
 		{
 			"name": "Ivan  Roman",
