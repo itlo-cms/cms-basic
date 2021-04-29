@@ -23,6 +23,10 @@
 		"itlo/cms": "^0.0.1 || dev-master",
 		"itlo/cms-composer": "^0.0.1 || dev-master@dev"
 	},
+	"require-dev": {
+		"itlo/cms": "^0.0.1 || dev-master",
+		"itlo/cms-composer": "^0.0.1 || dev-master@dev"
+	},
 	"autoload": {
 		"psr-4": {
 			"skeeks\\cms\\cmsbasic\\": "src/"
